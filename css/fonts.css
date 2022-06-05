@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?vml7cl');
+  src:  url('../fonts/icomoon.eot?vml7cl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vml7cl') format('truetype'),
+    url('../fonts/icomoon.woff?vml7cl') format('woff'),
+    url('../fonts/icomoon.svg?vml7cl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\e902";
+  color: #f00;
+}
+.icon-tiktok_black:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+  color: #e4405f;
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-instagram_black:before {
+  content: "\f16d";
+}
+.icon-youtube_black:before {
+  content: "\ea9d";
+}
